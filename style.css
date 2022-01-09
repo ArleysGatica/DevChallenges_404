@@ -1,0 +1,134 @@
+.container{
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header{
+  margin: 10px;
+  width: 90%;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.images{
+   display: flex;
+   float: left;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+}
+
+.images img{
+   height: 70%;
+  width: 70%;
+
+}
+
+.content-data{
+  margin:7%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;}
+
+.container-data1{
+  font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+  color: #333333;
+  margin: 0px;
+}
+
+.container-data2{
+  font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 36px;
+width: 70%;
+}
+
+.content-button{
+   font-family: Space Mono;
+  margin: 0px;
+  width: 190px;
+  height: 48px;
+  background: #333333;
+  color: rgb(241, 241, 241);
+
+}
+
+.footer{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+}
+
+ /* medida movil*/
+@media screen and (max-width: 374px) {
+  .container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header{
+    margin: 10px;
+    width: 90%;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+
+  .images{
+       display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 60%;
+    margin: auto;
+  }
+
+  .images img{
+        position: absolute;
+       justify-content: center;
+    top: 11.49%;
+    color: darkgray;
+    height: 30%;
+    background: aquamarine;
+  }
+
+  .content-data{
+    margin:7%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;}
+
+  .container-data1{
+    font-family: Space Mono;
+  
+  }
+}
