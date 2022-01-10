@@ -91,18 +91,18 @@ text-align: center;
   }
 
   .header{
-    margin: 10px;
-    width: 90%;
     font-family: Inconsolata;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 25px;
-    text-transform: uppercase;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+margin: -15%;
   }
 
   .images{
-       display: inline;
+    display: inline;
     justify-content: center;
     align-items: center;
     height: 70%;
@@ -111,24 +111,49 @@ text-align: center;
   }
 
   .images img{
-        position: absolute;
-       justify-content: center;
-    top: 11.49%;
-    color: darkgray;
-    height: 30%;
-    background: aquamarine;
+  position: absolute;
+  justify-content: center;
+  top: 11.49%;
+  color: darkgray;
+  height: 30%;
+
   }
 
   .content-data{
-    margin:7%;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;}
+        position: relative;
+    text-align: justify;
+    margin: 0px;
+    width: 50%;
+    height: 40%;
+  }
 
   .container-data1{
+       margin-inline-start: 30%;
     font-family: Space Mono;
-  
+    width: 140%;
+font-style: normal;
+font-weight: bold;
+line-height: 71px;
+  }
+
+  .container-data2{
+    width: 120%;
+    height: 100%;
+    margin: 2%;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0.035em;
+  }
+  .content-button{
+    font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+margin: 11%;
+letter-spacing: -0.035em;
+text-transform: uppercase;
   }
 }
